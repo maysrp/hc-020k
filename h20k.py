@@ -22,8 +22,9 @@ class H20K(object):
     
 if __name__=="__main__":
      c=H20K(0)
+     e=H20K(1)
      while True:
-         print("累计:",c.count)
-         print("转速:",c.RV)
+         print("累计:",c.count,e.count)
+         print("转速:",c.RV,e.RV)
          time.sleep(1)
 
