@@ -5,7 +5,7 @@ HC020K光电测速模块 micropython 1.20
 
 使用PICO RP2040 在micropython的1.20下测试通过，上传hc020k.py或者h20k.py 到你的PICO上 调用即可（两者选一个即可）。
 ![图片1](hc020k1.jpg)
-![大图](hc020k2.jpg)
+![大图](hc020k2.jpg 400x300)
 ## 接线
 |PICO|HC020K_1|HC020K_2|
 |-|-|-|
