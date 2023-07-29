@@ -1,7 +1,7 @@
 # hc-020k
 
 
-HC020K光电测速模块 micropython
+HC020K光电测速模块 micropython 1.20
 
 使用PICO RP2040 在micropython的1.20下测试通过，上传hc020k.py或者h20k.py 到你的PICO上 调用即可（两者选一个即可）。
 
