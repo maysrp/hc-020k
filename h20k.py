@@ -1,6 +1,8 @@
 from machine import Pin,Timer
 import time
+import micropython
 
+micropython.alloc_emergency_exception_buf(100)
 class H20K(object):
     def __init__(self,pin_num,freq=10):
         self.tc=time.ticks_us()
