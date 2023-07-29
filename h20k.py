@@ -17,7 +17,7 @@ class H20K(object):
             self.tc=ee
     def callback_RV(self,cvz):
         count_now=self.count
-        self.RV[i]=(count_now-self.cal_count)*cvz
+        self.RV=(count_now-self.cal_count)*cvz
         self.cal_count=count_now
     
 if __name__=="__main__":
