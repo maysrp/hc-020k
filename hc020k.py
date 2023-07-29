@@ -1,6 +1,8 @@
 from machine import Pin,Timer
 import time
+import micropython
 
+micropython.alloc_emergency_exception_buf(100)
 class HC020K(object):
     def __init__(self,apin,freq=10):
         self.tc=[]
