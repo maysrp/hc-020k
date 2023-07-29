@@ -50,5 +50,7 @@ while True:
 `c=HC020k(0,2)`
 
 求全程平均速度，请使用c.counts[0]去计算
+
+
 `qs=c.counts[0]/40 #圈数`
 
