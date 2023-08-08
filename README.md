@@ -27,9 +27,9 @@ c.RV 每秒钟转动的大小(数据类型列表)
 
 ```
 import time
-from hc020k import HC020k
+from hc020k import HC020K
 
-c=HC020k(0)
+c=HC020K(0)
 while True:
    print("累计:",c.counts)
    print("转速:",c.RV)
@@ -45,9 +45,9 @@ while True:
 
 ```
 import time
-from hc020k import HC020k
+from hc020k import HC020K
 
-c=HC020k([0,1])
+c=HC020K([0,1])
 while True:
    print("累计:",c.counts)
    print("转速:",c.RV)
